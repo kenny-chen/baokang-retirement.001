@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    
+    <!-- HTML Meta Tags -->
+    <title>宝康医养 | 智享未来，康养一生</title>
+    <meta name="description" content="数码创新与港式服务，缔造可持续的退休生活" />
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="宝康医养 | 智享未来，康养一生" />
+    <meta itemprop="description" content="数码创新与港式服务，缔造可持续的退休生活" />
+    <meta itemprop="image" content="https://baokang-retirement.frontiertechcap.com/baokang-logo.PNG" />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://baokang-retirement.frontiertechcap.com/index.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="宝康医养 | 智享未来，康养一生" />
+    <meta property="og:description" content="数码创新与港式服务，缔造可持续的退休生活" />
+    <meta property="og:image" content="https://baokang-retirement.frontiertechcap.com/baokang-logo.PNG" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="宝康医养 | 智享未来，康养一生" />
+    <meta name="twitter:description" content="数码创新与港式服务，缔造可持续的退休生活" />
+    <meta name="twitter:image" content="https://baokang-retirement.frontiertechcap.com/baokang-logo.PNG" />
+    
+    <title>宝康医养 | 下一代永续生活</title>
+    <script src="./tailwindcss.js"></script>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .hero {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('./baokong-bg-20250521a.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #000;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .btn-hover:hover {
+            background-color: #000;
+            color: white;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-900">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white bg-opacity-90 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <i class="fas fa-home-heart text-2xl mr-2 text-blue-600"></i>
+                    <span class="text-xl font-semibold">宝康医养</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-center space-x-8">
+                        <a href="#home" class="nav-link px-3 py-2 text-sm font-medium">首页</a>
+                        <a href="#features" class="nav-link px-3 py-2 text-sm font-medium">特色</a>
+                        <a href="#plans" class="nav-link px-3 py-2 text-sm font-medium">服務</a>
+                        <a href="#about" class="nav-link px-3 py-2 text-sm font-medium">关于我们</a>
+                        <a href="#contact" class="nav-link px-3 py-2 text-sm font-medium">联系方式</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="mobile-menu-button p-2 rounded-md text-gray-700 hover:text-gray-900 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <div class="mobile-menu hidden md:hidden fixed inset-0 z-40 bg-white mt-16">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a href="#home" class="block px-3 py-2 text-base font-medium">首页</a>
+            <a href="#features" class="block px-3 py-2 text-base font-medium">特色</a>
+            <a href="#plans" class="block px-3 py-2 text-base font-medium">服務</a>
+            <a href="#about" class="block px-3 py-2 text-base font-medium">关于我们</a>
+            <a href="#contact" class="block px-3 py-2 text-base font-medium">联系方式</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero pt-24 pb-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6">
+                    <span class="text-blue-600">智享未来，康养一生</span>
+                </h1>
+                <p class="mt-6 text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto">
+                    数码创新与港式服务，缔造可持续的退休生活
+                </p>
+                <div class="mt-10">
+                    <a href="#plans" class="btn-hover inline-flex items-center px-8 py-4 border-2 border-black text-lg font-medium rounded-full transition duration-300">
+                        探索我们的计划
+                        <i class="fas fa-arrow-right ml-3"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    为什么选择宝康医养
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    创新地将“医疗保健专业知识”与“优质生活空间”相结合。
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- Feature 1 -->
+                <div class="feature-card bg-white p-8 rounded-xl transition duration-300">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-100 text-blue-600 mb-6">
+                        <i class="fas fa-leaf text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">个性化退休规划</h3>
+                    <p class="text-gray-600">
+                        运用先进的机器学习算法，深度分析个人需求，打造专属退休蓝图，确保每一步都精准匹配您的未来规划。
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card bg-white p-8 rounded-xl transition duration-300">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-100 text-green-600 mb-6">
+                        <i class="fas fa-heartbeat text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">云端投资组合管理</h3>
+                    <p class="text-gray-600">
+                        通过云端技术，实现投资组合的无缝存取与实时监控，让您无论身处何地，都能轻松掌握财务脉搏，尽享数码化的便捷与高效。
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card bg-white p-8 rounded-xl transition duration-300">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-100 text-purple-600 mb-6">
+                        <i class="fas fa-city text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">跨城移居综合咨询</h3>
+                    <p class="text-gray-600">
+                        提供从文化适应到法律财务的全方位指导，助力您顺利跨越城市边界，实现生活与财富的无忧转移，开启全新篇章。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    我们的优质退休计划
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    为您的黄金岁月量身定制的生活解决方案。
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Plan 1 -->
+                <div class="border-2 border-gray-200 rounded-xl overflow-hidden transition duration-300 hover:border-blue-500">
+                    <div class="p-8">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-home text-3xl text-blue-600 mr-4"></i>
+                            <h3 class="text-2xl font-bold text-gray-900">贵宾版服务计划</h3>
+                        </div>
+                        <p class="text-gray-600 mb-6">
+                            舒适的生活空间，配备医疗保健设施和社区活动。
+                        </p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>24/7 专属财务顾问，提供一对一深度咨询</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>定制投资策略，根据个人目标动态调整</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>优先资源分配，确保医疗及生活服务质量</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>定期健康评估，智能规划养老生活蓝图</span>
+                            </li>
+                        </ul>
+                        <a href="#contact" class="btn-hover inline-block px-6 py-3 border-2 border-black rounded-full font-medium transition duration-300">
+                            了解更多
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Plan 2 -->
+                <div class="border-2 border-gray-200 rounded-xl overflow-hidden transition duration-300 hover:border-blue-500 bg-gray-50">
+                    <div class="p-8">
+                        <div class="flex items-center mb-6">
+                            <i class="fas fa-star text-3xl text-blue-600 mr-4"></i>
+                            <h3 class="text-2xl font-bold text-gray-900">专尚版服务计划</h3>
+                        </div>
+                        <p class="text-gray-600 mb-6">
+                            优质的生活方式，可在多个地点享受全面的医疗保健服务。
+                        </p>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>24/7 专业客服团队，及时响应并解决问题</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>标准化服务流程，提高效率并确保一致性</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>技术保障支持，维护数码平台稳定运行</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>定期培训服务，提升用户数码金融素养</span>
+                            </li>
+                        </ul>
+                        <a href="#contact" class="btn-hover inline-block px-6 py-3 border-2 border-black rounded-full font-medium transition duration-300">
+                            了解更多
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    关于宝康医养
+                </h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    自 2023 年起引领未来退休生活。
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">我们的愿景</h3>
+                    <p class="text-gray-300 mb-6">
+                        成为亚洲领先的医养服务供应商，引领智慧养老时代。
+                    </p>
+                    <h3 class="text-2xl font-bold mb-6">我们的目标</h3>
+                    <p class="text-gray-300">
+                        结合数码创新与港式服务精髓，以用户为中心，持续优化体验。
+                    </p>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-xl">
+                    <div class="flex items-center mb-6">
+                        <i class="fas fa-award text-3xl text-blue-400 mr-4"></i>
+                        <h3 class="text-2xl font-bold">奖项与表彰</h3>
+                    </div>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-medal text-yellow-400 mt-1 mr-3"></i>
+                            <span>数据要素x沪港合作开放数据竞赛2024－智慧城市</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-medal text-yellow-400 mt-1 mr-3"></i>
+                            <span>数据要素x沪港合作开放数据竞赛2024－智慧金融</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-medal text-yellow-400 mt-1 mr-3"></i>
+                            <span>开放数据应用比赛2023－公开组总冠军</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    准备好开始您的旅程了吗？
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    请联系我们预约参观或索取更多信息。
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">姓名</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">电子邮件</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">电话号码</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="interest" class="block text-sm font-medium text-gray-700 mb-1">我感兴趣的是</label>
+                            <select id="interest" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                                <option>贵宾版服务计划</option>
+                                <option>专尚版服务计划</option>
+                                <option>贵宾版+专尚版服务计划</option>
+                                <option>其他咨询</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn-hover w-full px-6 py-4 border-2 border-black rounded-full font-medium transition duration-300">
+                                提交查询
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">联系信息</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-blue-600 mt-1 mr-4 text-xl"></i>
+                            <div>
+                                <h4 class="font-medium text-gray-900">总部</h4>
+                                <p class="text-gray-600">Hong Kong, China</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-envelope text-blue-600 mt-1 mr-4 text-xl"></i>
+                            <div>
+                                <h4 class="font-medium text-gray-900">电子邮件</h4>
+                                <p class="text-gray-600">info@frontiertechcap.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <h4 class="font-medium text-gray-900 mb-4">关注我们</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://www.facebook.com/people/Frontier-MedTech-Capital/61567529799383/" target="_blank" class="text-gray-600 hover:text-blue-500 transition duration-300">
+                                <i class="fab fa-facebook text-2xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-home-heart text-2xl mr-2 text-blue-400"></i>
+                        <span class="text-xl font-semibold">宝康医养</span>
+                    </div>
+                    <p class="text-gray-400">
+                        智享未来，康养一生
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">快速链接</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition duration-300">首页</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition duration-300">特色</a></li>
+                        <li><a href="#plans" class="text-gray-400 hover:text-white transition duration-300">服務</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300">关于我们</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300">联系方式</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">法律</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">隐私政策</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">服务条款</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Cookie条款</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">电子通讯</h3>
+                    <p class="text-gray-400 mb-4">
+                        订阅以接收我们的最新消息。
+                    </p>
+                    <div class="flex">
+                        <input type="email" placeholder="您的电子邮件" class="px-4 py-2 rounded-l-lg text-gray-900 w-full focus:outline-none">
+                        <button class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-r-lg transition duration-300">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Baokang. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileMenuLinks = document.querySelectorAll('.mobile-menu a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Smooth scroll for all links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Change navbar background on scroll
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-md');
+                nav.classList.remove('shadow-sm');
+            } else {
+                nav.classList.remove('shadow-md');
+                nav.classList.add('shadow-sm');
+            }
+        });
+    </script>
+</body>
+</html>
